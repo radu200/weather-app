@@ -32,7 +32,6 @@ const useStyles = makeStyles({
 
 const ProgressBar = ({ progress, timeLeft }) => {
     const classes = useStyles();
-
     return (
         <div className={classes.root}>
               <Typography  className={classes.timeLeft}  variant="body2" component="p">

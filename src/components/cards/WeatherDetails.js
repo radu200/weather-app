@@ -31,8 +31,8 @@ const useStyles = makeStyles(() => ({
 const WeatherDetails = ({ foreCastWeatherData, foreCastLoader, error }) => {
     const classes = useStyles()
     const data = foreCastWeatherData.list;
-    console.log(error)
- return ( 
+
+  return ( 
     <> 
      {foreCastLoader && <Loader />}
      {error && <Error error={error} />}
